@@ -1,0 +1,26 @@
+{
+  "friend1": {
+    "friendUid": "mCntpqFjQMQU4avzLh6lVsDQy053",
+    "isAccepted": true,
+    "isPending": false,
+    "uid": "77777"
+  },
+  "friend2": {
+    "friendUid": "88888",
+    "isAccepted": false,
+    "isPending": true,
+    "uid": "mCntpqFjQMQU4avzLh6lVsDQy053"
+  },
+  "friend3": {
+    "friendUid": "0000000",
+    "isAccepted": true,
+    "isPending": false,
+    "uid": "mCntpqFjQMQU4avzLh6lVsDQy053"
+  },
+  "friend4": {
+    "friendUid": "99999",
+    "isAccepted": false,
+    "isPending": true,
+    "uid": "12345"
+  }
+}
