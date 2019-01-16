@@ -1,12 +1,12 @@
 import React from 'react';
 import './Weather.scss';
-import weatherForm from './weatherForm';
+import WeatherForm from './WeatherForm';
 
 class Weather extends React.Component {
   render() {
     return (
       <div className="Weather">
-        <weatherForm />
+        <WeatherForm />
       </div>
     );
   }

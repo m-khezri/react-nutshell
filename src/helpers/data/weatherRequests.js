@@ -23,6 +23,7 @@ const getWeather = uid => new Promise((resolve, reject) => {
 });
 
 const deleteWeather = weatherId => axios.delete(`${firebaseUrl}/weather/${weatherId}.json`);
+
 const getIsCurrent = uid => new Promise((resolve, reject) => {
   axios.get(`${firebaseUrl}/weather.json?orderBy="uid"&equalTo="${uid}"`)
     .then((result) => {
@@ -43,6 +44,7 @@ const getIsCurrent = uid => new Promise((resolve, reject) => {
 });
 
 const patchIsCurrent = (weatherId, isCurrent) => axios.patch(`${firebaseUrl}/weather/${weatherId}.json`, { isCurrent });
+
 const postRequest = weather => axios.post(`${firebaseUrl}/weather.json`, weather);
 
 export default {
