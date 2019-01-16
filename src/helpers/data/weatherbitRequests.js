@@ -1,5 +1,4 @@
 import axios from 'axios';
-
 import apiKeys from '../apiKeys';
 
 const getForecast = (city, state) => new Promise((resolve, reject) => {
